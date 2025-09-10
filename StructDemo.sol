@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
-
-struct Student {
+ //struct datatype body
+struct Student {   // can be written outside of contract
     uint roll;
     string name;
 }
