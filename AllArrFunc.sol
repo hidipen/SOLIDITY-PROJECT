@@ -40,5 +40,9 @@ contract AllArrFunc{
      function entireArryArr1()public view returns(uint[] memory){
         return arr1;
      }
+    //   creating a array in memory ,only fixed size can be created 
+    function memArray() external {
+        uint[] memory a = new uint [](6);
+    }
 
 }
